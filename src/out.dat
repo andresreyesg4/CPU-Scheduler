@@ -1,0 +1,11 @@
+End of Time 7
+Ready List:   
+| 3,0x2,5,3,ls
+| 7,0x2,7,5,pwd
+Stopped List: 
+Defunct List: 
+| 1,0x8,0,6,ls
+| 2,0x8,0,5,pwd
+| 6,0x8,0,2,ls
+On the CPU:   
+| 5,0x2,4,4,ls 
