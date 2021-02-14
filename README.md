@@ -4,4 +4,8 @@ everytime there is an interrupt for Created, I/O/, ready, Stopped, and Terminate
 one unit time.
 
 ## Description
-This project was completed in my Systems Programming course with profesor Kevin Andrea. The '''scheduler.c''' is the only file 
+This project was completed in my Systems Programming course with profesor Kevin Andrea. The <scheduler.c> is the only file I worked on. That source file contains
+the heart of the Earliest Deadline First algorithm. There are three different structs that I use to construct the scheduling algorithm. The structs include a
+Process struct, List struct, and a Scheduler Struct. The Process could be seen as a Node for a linked list. The list will hold the head and the count of the linked
+list. The scuedhuler holds three different Linked lists which are the Ready List, Defunct List, and the Stopeed List. The ready list and the stopped list use
+different algorithms to select the next process to run on the CPU. 
