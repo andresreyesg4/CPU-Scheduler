@@ -38,6 +38,5 @@ The process structs maintain their current state using the flags field. This is 
 S = sudo
 
 **Bits 1-6 represents the current state of the process.**                                                           These are stored as 1-bit values (0 for No, 1 for yes).
-**Note: only one of these will be set to 1 at any time. All of the others must be 0!**                                '''
-      C = created     R = ready     U = running     T = stopped     X = terminated    D = defuncted
-   '''
+**Note: only one of these will be set to 1 at any time. All of the others must be 0!**                             
+    1. C = created     R = ready     U = running     T = stopped     X = terminated    D = defuncted
