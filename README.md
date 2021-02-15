@@ -12,4 +12,10 @@ different algorithms to select the next process to run on the CPU.
 
 **Problem Background** 
 A major feature of most operating systems is to allow multple processes (running programs) to run on a single CPU.
-The OS manages processes by putting them into one of several scheduler queues, which are implemented as singly linked lists. 
+The OS manages processes by putting them into one of several scheduler lists, which are implemented as singly linked lists. 
+
+For each time unit on the computer, the OS chooses the next process to run form the ready list, which contains all 
+ready processes. This process will run for a set amount of time, which uses a hardware timer to keep track of.
+
+When the timer expires, if the running process did not finish, it will go back to the ready list to get scheduled again. A process may be stopped which will have to be moved to the stopped list and will wait to be continued by
+the scheduler. 
