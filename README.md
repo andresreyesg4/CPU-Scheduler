@@ -9,3 +9,7 @@ the heart of the Earliest Deadline First algorithm. There are three different st
 Process struct, List struct, and a Scheduler Struct. The Process could be seen as a Node for a linked list. The list will hold the head and the count of the linked
 list. The scuedhuler holds three different Linked lists which are the Ready List, Defunct List, and the Stopeed List. The ready list and the stopped list use
 different algorithms to select the next process to run on the CPU. 
+
+**Problem Background** 
+A major feature of most operating systems is to allow multple processes (running programs) to run on a single CPU.
+The OS manages processes by putting them into one of several scheduler queues, which are implemented as singly linked lists. 
