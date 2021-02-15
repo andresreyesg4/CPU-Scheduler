@@ -27,3 +27,8 @@ This project mplements several operations related to the CPU scheduler. This pro
 and use of three linked lists to create, store process structs, to move process structs between lists, to 
 add/search/remove preocess structs from the lists, and to perform basic bitwise operations to manage flags and 
 combined data. 
+
+**scheduler.c** will work with pre-written files from an OS simulator to implement several of these operations. 
+The structs for these lists are all defined in **structs.h**.
+
+
