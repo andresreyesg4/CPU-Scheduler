@@ -34,11 +34,11 @@ The structs for these lists are all defined in **structs.h**.
 **Process Flags**
 The process structs maintain their current state using the flags field. This is a 32-bit int that contains peices of informaiton, which have been combiend together using bitwise operations. 
 
-### Bit 0 is 1-bit flag saying if the proces was run with super user privileges.** 
-  *S = sudo
+#### Bit 0 is 1-bit flag saying if the proces was run with super user privileges. 
+  S = sudo
 
 **Bits 1-6 represents the current state of the process.** These are stored as 1-bit values (0 for No, 1 for yes).
-**Note: only one of these will be set to 1 at any time. All of the others must be 0!**.
+#### Note: only one of these will be set to 1 at any time. All of the others must be 0!
 
 1. C = created     
 1. R = ready     
