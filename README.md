@@ -20,7 +20,7 @@ ready processes. This process will run for a set amount of time, which uses a ha
 When the timer expires, if the running process did not finish, it will go back to the ready list to get scheduled again. A process may be stopped which will have to be moved to the stopped list and will wait to be continued by
 the scheduler. 
 
-When a process finish its time execution time then it will be moved to the defunct list which will be safely removed and reaped by the scheduler. It will become a zombie process. 
+When a process finish its time execution time then it will be moved to the defunct list which will be safely removed and reaped by the scheduler. It will become a zombie process which the scheduler will take care of at the end of running processes. 
 
 ## Project Overview
 This project mplements several operations related to the CPU scheduler. This project requires the implementation
