@@ -46,3 +46,7 @@ The process structs maintain their current state using the flags field. This is 
 1. T = stopped     
 1. X = terminated    
 1. D = defuncted
+
+### Bitwise Operations:
+For this project, in order to extract the flags from each process bitwise operations were used. These operations are [ &, |, <<, >>]. Each one can be used for
+different reasons. Turning on and turning off a flag are treated with different bitwise operations.
